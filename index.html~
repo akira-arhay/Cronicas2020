@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+
+
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">     <!-- esto es para la codificación. Si no tiene esta codificacion 8 probablemente muchos de los caracteres que usemos no se vayan a leer correctamente -->
+	<title>Pagina Muriel Sago</title>
+	<meta name="autor" content="Suyay Sago">
+	<meta name="generator" content="Bluefish 2.2.11" > <!-- Wordpress 5.0 por ejemplo -->
+	<meta name="copyright" content=""> <!-- para los derechos de autor por ejemplo -->
+	<meta name="keywords" content="pruebas, paginas, web"> 
+	<link rel="shortcut icon" href="imagenes/logoMuri.png" type="image/x-icon"> <!-- miniatura de la pestaña -->
+	<meta name="description" content="Página oficial de Muriel Sago, artista"> <!-- descripción del sitio web -->	
+	<link rel="stylesheet" href="estilos/estilos.css">  <!-- por si quiero poner una hoja de estilo CSS. "style.css significa que ese archivo tiene que estar en algún lugar dentro de la carpeta "estilos". " -->
+<!-- 	<script type="text/javascript" src="javascript/animacion.js"></script> -->
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+ 
+		<!-- PROCESSING -->
+		<script src="processing-js-master/processing.js"></script>
+
+</head>
+<body>
+
+
+<div id="contenedor">
+
+
+<header>
+
+<!-- MENÚ FLOTANTE -->
+
+
+<div id="navbar">
+ 	 <a href="index.html" class="Home" >Muriel Sago</a> 
+ 	 <div  class="navbarContent">
+		 <a href="paginas/contacto.html">Contacto</a> 		 
+ 		 <a href="paginas/biografia.html">Biografía</a>   		 
+ 		 <a href="paginas/biografia.html">Prensa</a> 
+ 	</div> 	
+ 	  	 
+</div>
+
+
+</header>
+
+
+
+
+<div class="header">
+
+
+<video src="videos/Reel Muriel Sago 2018 (720p_25fps_H264-192kbit_AAC).mp4" preload="auto" autoplay="" loop="" muted=""></video>
+
+
+</div>
+
+ <div class="secciones">
+
+<a href="paginas/biografia.html" class="level1">
+ 	<h2>TEATRO</h2>
+	<img src="imagenes/secciones/cine.jpg" alt="teatro">
+	</a>	
+	
+	<a href="paginas/biografia.html" class="level1">
+	<h2>CINE</h2>
+	<img src="imagenes/secciones/cine.jpg" alt="cine">
+	</a>
+
+	<a href="paginas/Biografia.html" class="level1">
+	<h2>FOTOGRAFÍA</h2>
+	<img src="imagenes/secciones/cine.jpg" alt="fotografia">
+	</a>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="cont">
+
+<div class="secciones">
+
+<a href="paginas/biografia.html" class="level1">
+ 	<img src="imagenes/secciones/cineCopia.jpg" alt="teatro" class="image">
+	<div class="overlay">
+    <div class="text">TEATRO</div>
+  </div>
+	</a>	
+	
+	<a href="paginas/biografia.html" class="level1">
+	<img src="imagenes/secciones/cineCopia.jpg" alt="cine" class="image">
+	<div class="overlay">
+    <div class="text">CINE</div>
+  </div>
+	</a>
+
+	<a href="paginas/biografia.html" class="level1">
+	<img src="imagenes/secciones/cineCopia.jpg" alt="fotografia" class="image">
+	<div class="overlay">
+    <div class="text">FOTOGRAFÍA</div>
+  </div>
+	</a>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PIE -->
+
+<footer>
+     
+          <hr>
+            
+            <div class="footerContent">
+            © 2021 Suyay Sago
+            <a  href="https://www.instagram.com/akira_arhay/" target="_blank" class="redesSuyi">
+            <img src="imagenes/redes/instagramSuyi.png" alt="Instagram" >
+            </a>
+            <a  href="https://www.facebook.com/suyi.sago/" target="_blank" class="redesSuyi">
+            <img src="imagenes/redes/facebookSuyi.png" alt="Facebook" >
+            </a>
+            </div>
+            
+     
+          </div>
+           </div>
+</footer>
+
+
+   <!------------------------------------------------------------>    
+   <!-- JAVA SCRIPT --> 
+   
+    
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/javascript.js"></script>
+
+      <script type="text/javascript">
+
+  $('.tap-target').tapTarget('open');
+  $('.tap-target').tapTarget('close');
+
+      </script>  
+  
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
