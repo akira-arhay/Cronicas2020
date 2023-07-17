@@ -54,18 +54,21 @@ body {
 }
 
 
-.videoUno iframe {
+.videoUno video {
 	width: 50em;
 	height: 50em;
 	margin-left: 30%;
-	padding-top: 1%; /*VER SI DEJARLO EN 0 Y QUE SE SUPERPONGA EL MENU Y VIDEO O SI LE DEJO EL BORDE en 56px */
-	/*position: fixed; el tamaño siempre es relativo a la ventana*/
 	border-radius: 50%;
+
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+.videoUno video:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 white;
 }
 
 
 .botonCircular{
-
   background-color: rgba(0, 0, 0, 0.0);
   border: none;
 	width: 70em;
